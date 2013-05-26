@@ -18,7 +18,18 @@
 		1ABB7DE01750D61000A8FA61 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ABB7DDF1750D61000A8FA61 /* Default-568h@2x.png */; };
 		1ABB7DE31750D61000A8FA61 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABB7DE11750D61000A8FA61 /* MainStoryboard_iPhone.storyboard */; };
 		1ABB7DE61750D61000A8FA61 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABB7DE41750D61000A8FA61 /* MainStoryboard_iPad.storyboard */; };
-		1ABB7DE91750D61000A8FA61 /* TrigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7DE81750D61000A8FA61 /* TrigViewController.m */; };
+		1ABB7E0017520C4B00A8FA61 /* TrigABSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7DFF17520C4B00A8FA61 /* TrigABSegue.m */; };
+		1ABB7E331752185600A8FA61 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E211752185600A8FA61 /* AFHTTPClient.m */; };
+		1ABB7E341752185600A8FA61 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E231752185600A8FA61 /* AFHTTPRequestOperation.m */; };
+		1ABB7E351752185600A8FA61 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E251752185600A8FA61 /* AFImageRequestOperation.m */; };
+		1ABB7E361752185600A8FA61 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E271752185600A8FA61 /* AFJSONRequestOperation.m */; };
+		1ABB7E371752185600A8FA61 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E291752185600A8FA61 /* AFNetworkActivityIndicatorManager.m */; };
+		1ABB7E381752185600A8FA61 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E2C1752185600A8FA61 /* AFPropertyListRequestOperation.m */; };
+		1ABB7E391752185600A8FA61 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E2E1752185600A8FA61 /* AFURLConnectionOperation.m */; };
+		1ABB7E3A1752185600A8FA61 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E301752185600A8FA61 /* AFXMLRequestOperation.m */; };
+		1ABB7E3B1752185600A8FA61 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E321752185600A8FA61 /* UIImageView+AFNetworking.m */; };
+		1ABB7E3E17521F0A00A8FA61 /* TriggerEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E3D17521F0A00A8FA61 /* TriggerEntryViewController.m */; };
+		1ABB7E411752369900A8FA61 /* TrigCopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E401752369900A8FA61 /* TrigCopyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +48,31 @@
 		1ABB7DDF1750D61000A8FA61 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1ABB7DE21750D61000A8FA61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		1ABB7DE51750D61000A8FA61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		1ABB7DE71750D61000A8FA61 /* TrigViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrigViewController.h; sourceTree = "<group>"; };
-		1ABB7DE81750D61000A8FA61 /* TrigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrigViewController.m; sourceTree = "<group>"; };
+		1ABB7DFE17520C4A00A8FA61 /* TrigABSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigABSegue.h; sourceTree = "<group>"; };
+		1ABB7DFF17520C4B00A8FA61 /* TrigABSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigABSegue.m; sourceTree = "<group>"; };
+		1ABB7E201752185600A8FA61 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		1ABB7E211752185600A8FA61 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		1ABB7E221752185600A8FA61 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		1ABB7E231752185600A8FA61 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		1ABB7E241752185600A8FA61 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		1ABB7E251752185600A8FA61 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		1ABB7E261752185600A8FA61 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		1ABB7E271752185600A8FA61 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		1ABB7E281752185600A8FA61 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		1ABB7E291752185600A8FA61 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		1ABB7E2A1752185600A8FA61 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		1ABB7E2B1752185600A8FA61 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		1ABB7E2C1752185600A8FA61 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		1ABB7E2D1752185600A8FA61 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		1ABB7E2E1752185600A8FA61 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		1ABB7E2F1752185600A8FA61 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		1ABB7E301752185600A8FA61 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		1ABB7E311752185600A8FA61 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		1ABB7E321752185600A8FA61 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		1ABB7E3C17521F0A00A8FA61 /* TriggerEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriggerEntryViewController.h; sourceTree = "<group>"; };
+		1ABB7E3D17521F0A00A8FA61 /* TriggerEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriggerEntryViewController.m; sourceTree = "<group>"; };
+		1ABB7E3F1752369900A8FA61 /* TrigCopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigCopyViewController.h; sourceTree = "<group>"; };
+		1ABB7E401752369900A8FA61 /* TrigCopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigCopyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +119,18 @@
 		1ABB7DCF1750D61000A8FA61 /* StoryBoardTest */ = {
 			isa = PBXGroup;
 			children = (
+				1ABB7E1F1752185600A8FA61 /* AFNetworking */,
 				1ABB7DD81750D61000A8FA61 /* TrigAppDelegate.h */,
 				1ABB7DD91750D61000A8FA61 /* TrigAppDelegate.m */,
 				1ABB7DE11750D61000A8FA61 /* MainStoryboard_iPhone.storyboard */,
 				1ABB7DE41750D61000A8FA61 /* MainStoryboard_iPad.storyboard */,
-				1ABB7DE71750D61000A8FA61 /* TrigViewController.h */,
-				1ABB7DE81750D61000A8FA61 /* TrigViewController.m */,
 				1ABB7DD01750D61000A8FA61 /* Supporting Files */,
+				1ABB7DFE17520C4A00A8FA61 /* TrigABSegue.h */,
+				1ABB7DFF17520C4B00A8FA61 /* TrigABSegue.m */,
+				1ABB7E3C17521F0A00A8FA61 /* TriggerEntryViewController.h */,
+				1ABB7E3D17521F0A00A8FA61 /* TriggerEntryViewController.m */,
+				1ABB7E3F1752369900A8FA61 /* TrigCopyViewController.h */,
+				1ABB7E401752369900A8FA61 /* TrigCopyViewController.m */,
 			);
 			path = StoryBoardTest;
 			sourceTree = "<group>";
@@ -108,6 +147,32 @@
 				1ABB7DDF1750D61000A8FA61 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ABB7E1F1752185600A8FA61 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB7E201752185600A8FA61 /* AFHTTPClient.h */,
+				1ABB7E211752185600A8FA61 /* AFHTTPClient.m */,
+				1ABB7E221752185600A8FA61 /* AFHTTPRequestOperation.h */,
+				1ABB7E231752185600A8FA61 /* AFHTTPRequestOperation.m */,
+				1ABB7E241752185600A8FA61 /* AFImageRequestOperation.h */,
+				1ABB7E251752185600A8FA61 /* AFImageRequestOperation.m */,
+				1ABB7E261752185600A8FA61 /* AFJSONRequestOperation.h */,
+				1ABB7E271752185600A8FA61 /* AFJSONRequestOperation.m */,
+				1ABB7E281752185600A8FA61 /* AFNetworkActivityIndicatorManager.h */,
+				1ABB7E291752185600A8FA61 /* AFNetworkActivityIndicatorManager.m */,
+				1ABB7E2A1752185600A8FA61 /* AFNetworking.h */,
+				1ABB7E2B1752185600A8FA61 /* AFPropertyListRequestOperation.h */,
+				1ABB7E2C1752185600A8FA61 /* AFPropertyListRequestOperation.m */,
+				1ABB7E2D1752185600A8FA61 /* AFURLConnectionOperation.h */,
+				1ABB7E2E1752185600A8FA61 /* AFURLConnectionOperation.m */,
+				1ABB7E2F1752185600A8FA61 /* AFXMLRequestOperation.h */,
+				1ABB7E301752185600A8FA61 /* AFXMLRequestOperation.m */,
+				1ABB7E311752185600A8FA61 /* UIImageView+AFNetworking.h */,
+				1ABB7E321752185600A8FA61 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +245,18 @@
 			files = (
 				1ABB7DD61750D61000A8FA61 /* main.m in Sources */,
 				1ABB7DDA1750D61000A8FA61 /* TrigAppDelegate.m in Sources */,
-				1ABB7DE91750D61000A8FA61 /* TrigViewController.m in Sources */,
+				1ABB7E0017520C4B00A8FA61 /* TrigABSegue.m in Sources */,
+				1ABB7E331752185600A8FA61 /* AFHTTPClient.m in Sources */,
+				1ABB7E341752185600A8FA61 /* AFHTTPRequestOperation.m in Sources */,
+				1ABB7E351752185600A8FA61 /* AFImageRequestOperation.m in Sources */,
+				1ABB7E361752185600A8FA61 /* AFJSONRequestOperation.m in Sources */,
+				1ABB7E371752185600A8FA61 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				1ABB7E381752185600A8FA61 /* AFPropertyListRequestOperation.m in Sources */,
+				1ABB7E391752185600A8FA61 /* AFURLConnectionOperation.m in Sources */,
+				1ABB7E3A1752185600A8FA61 /* AFXMLRequestOperation.m in Sources */,
+				1ABB7E3B1752185600A8FA61 /* UIImageView+AFNetworking.m in Sources */,
+				1ABB7E3E17521F0A00A8FA61 /* TriggerEntryViewController.m in Sources */,
+				1ABB7E411752369900A8FA61 /* TrigCopyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

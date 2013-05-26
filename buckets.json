@@ -1,0 +1,15 @@
+{
+	"segues": {
+		"test1": "blueView"
+	},
+	"views": {
+		"copy1": {
+			"title": "New Title",
+			"views": {
+				"label1": {
+					"text": "New copy"
+				}
+			}
+		}
+	}
+}
