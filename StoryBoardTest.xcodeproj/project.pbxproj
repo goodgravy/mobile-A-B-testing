@@ -30,6 +30,7 @@
 		1ABB7E3B1752185600A8FA61 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E321752185600A8FA61 /* UIImageView+AFNetworking.m */; };
 		1ABB7E3E17521F0A00A8FA61 /* TriggerEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E3D17521F0A00A8FA61 /* TriggerEntryViewController.m */; };
 		1ABB7E411752369900A8FA61 /* TrigCopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB7E401752369900A8FA61 /* TrigCopyViewController.m */; };
+		1AD5450217537C17003A2E4B /* TrigABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5450117537C17003A2E4B /* TrigABViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,8 @@
 		1ABB7E3D17521F0A00A8FA61 /* TriggerEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriggerEntryViewController.m; sourceTree = "<group>"; };
 		1ABB7E3F1752369900A8FA61 /* TrigCopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigCopyViewController.h; sourceTree = "<group>"; };
 		1ABB7E401752369900A8FA61 /* TrigCopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigCopyViewController.m; sourceTree = "<group>"; };
+		1AD5450017537C17003A2E4B /* TrigABViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigABViewController.h; sourceTree = "<group>"; };
+		1AD5450117537C17003A2E4B /* TrigABViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigABViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				1ABB7E3D17521F0A00A8FA61 /* TriggerEntryViewController.m */,
 				1ABB7E3F1752369900A8FA61 /* TrigCopyViewController.h */,
 				1ABB7E401752369900A8FA61 /* TrigCopyViewController.m */,
+				1AD5450017537C17003A2E4B /* TrigABViewController.h */,
+				1AD5450117537C17003A2E4B /* TrigABViewController.m */,
 			);
 			path = StoryBoardTest;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				1ABB7E3B1752185600A8FA61 /* UIImageView+AFNetworking.m in Sources */,
 				1ABB7E3E17521F0A00A8FA61 /* TriggerEntryViewController.m in Sources */,
 				1ABB7E411752369900A8FA61 /* TrigCopyViewController.m in Sources */,
+				1AD5450217537C17003A2E4B /* TrigABViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +395,7 @@
 				1ABB7DEE1750D61000A8FA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

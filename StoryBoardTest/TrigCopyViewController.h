@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TrigABViewController.h"
 
-@interface TrigCopyViewController : UIViewController
+@interface TrigCopyViewController : TrigABViewController
 
 @property UILabel IBOutlet *label;
 @property UINavigationItem IBOutlet *navItem;
+@property UIButton IBOutlet *button;
 
 @end
