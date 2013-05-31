@@ -170,7 +170,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="kQc-l8-ZOI" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="n6z-5Q-oIH"/>
                             <constraint firstItem="kQc-l8-ZOI" firstAttribute="top" secondItem="XKL-lx-bc5" secondAttribute="top" constant="173" id="qGo-uu-fZB"/>
@@ -289,23 +289,13 @@
         </class>
         <class className="TrigCopyViewController" superclassName="TrigABViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TrigCopyViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="button" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="navItem" candidateClass="UINavigationItem"/>
-            </relationships>
         </class>
         <class className="TriggerEntryViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TriggerEntryViewController.h"/>
             <relationships>
                 <relationship kind="action" name="forgetConfig"/>
                 <relationship kind="action" name="refreshConfig"/>
-                <relationship kind="action" name="unwindToEntry:" candidateClass="UIStoryboardSegue"/>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
             </relationships>
-        </class>
-        <class className="UIStoryboardSegue" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
